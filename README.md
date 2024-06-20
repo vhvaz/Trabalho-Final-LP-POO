@@ -77,7 +77,8 @@ LojaOnline
 │ ├── City.png
 │ ├── Bayer.png
 │ ├── Girona.png
-│ └── Inter Miami.png ```
+│ └── Inter Miami.png
+```
 
 
 ## Como Executar o Projeto
