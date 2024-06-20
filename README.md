@@ -134,6 +134,10 @@ A Tela de Pagamento permite que os usuários escolham a forma de pagamento (Cart
 ### Pacote `Resources`
 Contém as imagens dos produtos, como camisetas dos times de futebol.
 
+## Diagrama ERD
+![diagrama banco de dados](https://github.com/vhvaz/Trabalho-Final-LP-POO/assets/150188099/72218e56-bd57-4c48-be58-3bb76c9457ed)
+
+
 ## Scripts SQL
 ```sql
 CREATE DATABASE shop;
