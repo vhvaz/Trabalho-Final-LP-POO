@@ -169,7 +169,8 @@ CREATE TABLE IF NOT EXISTS itens_venda (
     quantidade INT NOT NULL,
     FOREIGN KEY (venda_id) REFERENCES vendas(id),
     FOREIGN KEY (produto_id) REFERENCES produtos(id)
-);
+); ```
+
 
 ## Autores
 [Vitor](https://github.com/vhvaz) - vhvaz  
