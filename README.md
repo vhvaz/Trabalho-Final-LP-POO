@@ -38,7 +38,7 @@ Somos dois amigos, **Vitor** e **Gustavo**, apaixonados por tecnologia e futebol
     - Crie um banco de dados chamado `shop`.
     - Execute os comandos SQL fornecidos na seção [Scripts SQL](#scripts-sql) para criar as tabelas necessárias.
 
-## Estrutura do Projeto
+```## Estrutura do Projeto
 A estrutura do projeto está organizada da seguinte forma:
 LojaOnline
 │
@@ -77,7 +77,7 @@ LojaOnline
 │ ├── City.png
 │ ├── Bayer.png
 │ ├── Girona.png
-│ └── Inter Miami.png
+│ └── Inter Miami.png ```
 
 
 ## Como Executar o Projeto
@@ -169,7 +169,8 @@ CREATE TABLE IF NOT EXISTS itens_venda (
     quantidade INT NOT NULL,
     FOREIGN KEY (venda_id) REFERENCES vendas(id),
     FOREIGN KEY (produto_id) REFERENCES produtos(id)
-); ```
+);
+```
 
 
 ## Autores
