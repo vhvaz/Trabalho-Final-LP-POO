@@ -103,9 +103,9 @@ LojaOnline
    javac -d bin src/**/*.java
    ```
 5. **Execute o programa Java compilado no terminal:**
-  ```sh
+   ```sh
    java -cp bin Telas.TelaLogin
-  ````
+   ````
 6. **Configure o banco de dados:**
     - Siga as instruções na seção de configuração do banco de dados para criar e configurar o banco de dados `shop`.
 7. **Adicione o driver MySQL ao classpath:**
