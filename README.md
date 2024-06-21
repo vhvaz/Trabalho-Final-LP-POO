@@ -95,22 +95,22 @@ LojaOnline
     git clone https://github.com/vhvaz/Trabalho-Final-LP-POO
     ```
 2. **Navegue até o diretório do projeto:**
-3. ```sh
+   ```sh
    cd Trabalho-Final-LP-POO
    ```
-4. **Compile o código-fonte utilizando o seguinte comando:**
+3. **Compile o código-fonte utilizando o seguinte comando:**
    ```sh
    javac -d bin src/**/*.java
    ```
-5. **Execute o programa Java compilado no terminal:**
+4. **Execute o programa Java compilado no terminal:**
    ```sh
    java -cp bin Telas.TelaLogin
    ````
-6. **Configure o banco de dados:**
+5. **Configure o banco de dados:**
     - Siga as instruções na seção de configuração do banco de dados para criar e configurar o banco de dados `shop`.
-7. **Adicione o driver MySQL ao classpath:**
+6. **Adicione o driver MySQL ao classpath:**
     - Certifique-se de que o driver JDBC do MySQL (`mysql-connector-java`) está no classpath do seu projeto.
-8. **Compile e execute o projeto:**
+7. **Compile e execute o projeto:**
     - Use sua IDE preferida (como IntelliJ IDEA ou Eclipse) para compilar e executar a classe principal `Telas.TelaLogin`.
 
 ### Notas:
