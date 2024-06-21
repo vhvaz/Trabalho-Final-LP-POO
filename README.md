@@ -46,8 +46,9 @@ Somos dois amigos, **Vitor** e **Gustavo**, apaixonados por tecnologia e futebol
 ![diagrama projeto](https://github.com/vhvaz/Trabalho-Final-LP-POO/assets/150188099/c1145044-7e20-46cd-905f-7ade25f1d8cf)
 
 
-```## Estrutura do Projeto
+## Estrutura do Projeto
 A estrutura do projeto está organizada da seguinte forma:
+```
 LojaOnline
 │
 ├── src
