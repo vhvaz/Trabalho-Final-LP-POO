@@ -203,7 +203,9 @@ CREATE TABLE IF NOT EXISTS itens_venda (
 ## Demonstração em Vídeo
 Assista a uma demonstração do funcionamento da VG Store abaixo:
 
-https://github.com/vhvaz/Trabalho-Final-LP-POO/assets/150188099/57132f2a-d62e-415f-b558-a0a9b90931a2
+https://github.com/vhvaz/Trabalho-Final-LP-POO/assets/150188099/5092261f-25c0-4283-9c19-89d3ab63e574
+
+
 
 
 
