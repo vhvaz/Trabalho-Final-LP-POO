@@ -1,4 +1,6 @@
-![logo_1-removebg-preview](https://github.com/vhvaz/Trabalho-Final-LP-POO/assets/150188099/61c88d1d-2c41-480c-badc-d235d404820c)
+<div style="text-align: center;">
+  <img src="https://github.com/vhvaz/Trabalho-Final-LP-POO/assets/150188099/61c88d1d-2c41-480c-badc-d235d404820c" alt="logo_1-removebg-preview">
+</div>
 
 # VG Store - LojaOnline
 
