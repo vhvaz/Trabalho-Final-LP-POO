@@ -184,6 +184,28 @@ CREATE TABLE IF NOT EXISTS itens_venda (
     FOREIGN KEY (produto_id) REFERENCES produtos(id)
 );
 ```
+## Representação das imagens das telas
+
+### Tela de Login
+![login](https://github.com/vhvaz/Trabalho-Final-LP-POO/assets/150188099/a3063911-4331-4d4f-96af-a1e2d74e7222)
+
+### Tela Vitrine
+![vitrine](https://github.com/vhvaz/Trabalho-Final-LP-POO/assets/150188099/f962df1d-a630-4373-a8c1-bd1fc44588b4)
+
+### Tela Carrinho
+![carrinho](https://github.com/vhvaz/Trabalho-Final-LP-POO/assets/150188099/704be33d-c242-4183-9301-a0aa06c2275d)
+
+### Tela Pagamento
+![pagamento](https://github.com/vhvaz/Trabalho-Final-LP-POO/assets/150188099/ae9852ab-538e-43a6-83ef-d52e4c392d10)
+
+---
+
+## Demonstração em Vídeo
+Assista a uma demonstração do funcionamento da VG Store abaixo:
+
+https://github.com/vhvaz/Trabalho-Final-LP-POO/assets/150188099/57132f2a-d62e-415f-b558-a0a9b90931a2
+
+
 
 
 ## Autores
