@@ -1,3 +1,5 @@
+![logo_1-removebg-preview](https://github.com/vhvaz/Trabalho-Final-LP-POO/assets/150188099/61c88d1d-2c41-480c-badc-d235d404820c)
+
 # VG Store - LojaOnline
 
 ## Sumário
