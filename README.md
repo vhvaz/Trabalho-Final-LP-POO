@@ -116,7 +116,6 @@ LojaOnline
 ### Notas:
 As imagens das camisas de time utilizadas na loja estão na pasta resources dentro do repositório.
 
----
 
 ## Descrição das Telas
 ### Tela de Login
@@ -131,7 +130,6 @@ A Tela de Carrinho de Compras permite que os usuários visualizem os produtos ad
 ### Tela de Pagamento
 A Tela de Pagamento permite que os usuários escolham a forma de pagamento (Cartão de Crédito ou Pix) e insiram os dados necessários para finalizar a compra.
 
----
 
 ## Descrição das Classes
 ### Pacote `Dao`
@@ -161,7 +159,6 @@ A Tela de Pagamento permite que os usuários escolham a forma de pagamento (Cart
 ### Pacote `Resources`
 Contém as imagens dos produtos, como camisetas dos times de futebol.
 
----
 
 ## Diagrama ERD
 ![diagrama banco de dados](https://github.com/vhvaz/Trabalho-Final-LP-POO/assets/150188099/72218e56-bd57-4c48-be58-3bb76c9457ed)
@@ -205,7 +202,6 @@ CREATE TABLE IF NOT EXISTS itens_venda (
     FOREIGN KEY (produto_id) REFERENCES produtos(id)
 );
 ```
----
 
 ## Representação das imagens das telas
 
@@ -221,15 +217,12 @@ CREATE TABLE IF NOT EXISTS itens_venda (
 ### Tela Pagamento
 ![pagamento](https://github.com/vhvaz/Trabalho-Final-LP-POO/assets/150188099/ae9852ab-538e-43a6-83ef-d52e4c392d10)
 
----
 
 ## Demonstração em Vídeo
 Assista a uma demonstração do funcionamento da VG Store abaixo:
 
 https://github.com/vhvaz/Trabalho-Final-LP-POO/assets/150188099/5092261f-25c0-4283-9c19-89d3ab63e574
 
-
----
 ## Autores
 [Vitor](https://github.com/vhvaz) - vhvaz  
 [Gustavo](https://github.com/jmv98) - jmv98  
@@ -240,8 +233,6 @@ Agradecemos aos professores da disciplina de Linguagens de Programação e POO p
 
 ## Considerações finais
 Este projeto foi uma excelente oportunidade para aplicar os conceitos aprendidos nas disciplinas de Linguagens de Programação e Programação Orientada a Objetos e desenvolver uma aplicação prática e funcional. Agradecemos a todos que contribuíram para a realização deste projeto.
-
----
 
 Sinta-se à vontade para clonar, modificar e distribuir este projeto. Caso tenha sugestões de melhorias, não hesite em abrir um pull request.
 
