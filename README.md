@@ -92,14 +92,31 @@ LojaOnline
 ## Como Executar o Projeto
 1. **Clone o repositório:**
     ```sh
-    git clone https://github.com/vhvaz/LojaOnline.git
+    git clone https://github.com/vhvaz/Trabalho-Final-LP-POO
     ```
-2. **Configure o banco de dados:**
+2. **Navegue até o diretório do projeto:**
+3. ```sh
+   cd Trabalho-Final-LP-POO
+   ```
+4. **Compile o código-fonte utilizando o seguinte comando:**
+   ```sh
+   javac -d bin src/**/*.java
+   ```
+5. **Execute o programa Java compilado no terminal:**
+  ```sh
+   java -cp bin Telas.TelaLogin
+  ````
+6. **Configure o banco de dados:**
     - Siga as instruções na seção de configuração do banco de dados para criar e configurar o banco de dados `shop`.
-3. **Adicione o driver MySQL ao classpath:**
+7. **Adicione o driver MySQL ao classpath:**
     - Certifique-se de que o driver JDBC do MySQL (`mysql-connector-java`) está no classpath do seu projeto.
-4. **Compile e execute o projeto:**
+8. **Compile e execute o projeto:**
     - Use sua IDE preferida (como IntelliJ IDEA ou Eclipse) para compilar e executar a classe principal `Telas.TelaLogin`.
+
+### Notas:
+As imagens das camisas de time utilizadas na loja estão na pasta resources dentro do repositório.
+
+---
 
 ## Descrição das Telas
 ### Tela de Login
@@ -113,6 +130,8 @@ A Tela de Carrinho de Compras permite que os usuários visualizem os produtos ad
 
 ### Tela de Pagamento
 A Tela de Pagamento permite que os usuários escolham a forma de pagamento (Cartão de Crédito ou Pix) e insiram os dados necessários para finalizar a compra.
+
+---
 
 ## Descrição das Classes
 ### Pacote `Dao`
@@ -141,6 +160,8 @@ A Tela de Pagamento permite que os usuários escolham a forma de pagamento (Cart
 
 ### Pacote `Resources`
 Contém as imagens dos produtos, como camisetas dos times de futebol.
+
+---
 
 ## Diagrama ERD
 ![diagrama banco de dados](https://github.com/vhvaz/Trabalho-Final-LP-POO/assets/150188099/72218e56-bd57-4c48-be58-3bb76c9457ed)
@@ -184,6 +205,8 @@ CREATE TABLE IF NOT EXISTS itens_venda (
     FOREIGN KEY (produto_id) REFERENCES produtos(id)
 );
 ```
+---
+
 ## Representação das imagens das telas
 
 ### Tela de Login
@@ -206,10 +229,7 @@ Assista a uma demonstração do funcionamento da VG Store abaixo:
 https://github.com/vhvaz/Trabalho-Final-LP-POO/assets/150188099/5092261f-25c0-4283-9c19-89d3ab63e574
 
 
-
-
-
-
+---
 ## Autores
 [Vitor](https://github.com/vhvaz) - vhvaz  
 [Gustavo](https://github.com/jmv98) - jmv98  
@@ -223,7 +243,7 @@ Este projeto foi uma excelente oportunidade para aplicar os conceitos aprendidos
 
 ---
 
-Espero que este README atenda às suas expectativas e forneça todas as informações necessárias para a correta utilização e entendimento do projeto. Se precisar de mais alguma coisa, estou à disposição.
+Sinta-se à vontade para clonar, modificar e distribuir este projeto. Caso tenha sugestões de melhorias, não hesite em abrir um pull request.
 
 ## Licença
 © 2024 VG Store. Todos os direitos reservados.
